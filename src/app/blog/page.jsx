@@ -1,13 +1,14 @@
 import { data } from "autoprefixer";
 
 async function fetchData() {
-    const endpoint = 'http://localhost:3000/api/posts';
+    /* const endpoint = 'http://localhost:3000/api/posts';
     const response = await fetch(endpoint);
 
     if (!response.ok) {
         throw new Error('Falied to fetch data from the API');
     }
-    return response.json();
+    return response.json(); */
+    return {items: []}
 }
 
 export default async function Blog() {
